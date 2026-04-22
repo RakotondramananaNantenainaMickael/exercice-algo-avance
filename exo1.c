@@ -36,8 +36,8 @@ unsigned int puissance_rapide(unsigned int x, unsigned int n){
 
 
 int main(){
-    /*int result= puissance_lineaire(3, 4);
-    printf("resultat= %d \n", result);*/
+    int result= puissance_lineaire(3, 4);
+    printf("resultat= %d \n", result);
 
     int result2= puissance_rapide(12, 6);
     printf("resultat= %d \n", result2);
